@@ -58,7 +58,7 @@ class Board
   end
 
   def self.print_grid(array)
-    @grid.map do |row|
+    array.each do |row|
         puts row.join(" ")
     end
   end
